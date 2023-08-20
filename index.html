@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Header</title>
+    <link rel="shortcut icon" href="Imagens/Favicon-Portfólio.png" type="image/x-icon">
+    <link rel="stylesheet" href="Estilo/style.css">
+    <script src="https://kit.fontawesome.com/9cea758d5a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- ------------------Header------------------ -->
+
+    <header id="header">
+
+        <div class="toggle-btn" id="btn" style="--i:6">
+            <span id="btnText">Dark</span>
+            <img src="Imagens/moon.png" alt="moon" id="btnIcon">
+         </div>
+
+        <a href="#" class="logo">&lt;/AB&gt;</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">HOME</a>
+            <a href="#about" style="--i:2">SOBRE</a>
+            <a href="#portfolio" style="--i:4">PROJETOS</a>
+            <a href="#contract" style="--i:5">CONTATO</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h3>Olá, Mundo!</h3>
+            <h1>Eu sou <span>Arthur Batista</span></h1>
+            <h3>Programador <span id="efeito">Front-end</span></h3>
+            <p>Seja bem vindo ao meu portfólio! <br>
+            Sou Arthur de Araujo Batista, programador Front-end! Tenho como minhas principais linguagens o <strong>HTMl</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/arthur-batista-056a55266/" target="_blank" style="--i:7"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Batista204" target="_blank" style="--i:8"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/arthurbatis_/" style="--i:9"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="Imagens/Arthur de Araujo Batista.docx" class="btn-donwload">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="Imagens/foto Arthur Batista Home png.png">
+        </div>
+    </section>
+
+<!-- ----------------About------------------- -->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Imagens/Foto Arthur Batista png.png"> 
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Sobre Mim</h1>
+                    <p class="info-about">Olá, sou Arthur de Araujo Batista, tenho 18 anos e estou seguindo o meu sonho de se tornar um programador Front-end. Estou cursando <strong>Sistema de Informação</strong> no Centro Universitário de Desenvolvimento do Centro Oeste (UNIDESC). Crio projetos a meses e sinto que estou pronto  para fazer parte da sua equipe de programdores!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('tecnologias')">Tecnologias</p>
+                        <p class="tab-links" onclick="opentab('Education')">Educação</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>HTML/CSS</span><br>Designing Web interfaces</li>
+                            <li><span>JavaScript</span><br>Web Development</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="tecnologias">
+                        <ul>
+                            <li class="icons-tec">
+                                <!-- <span>Linguagens</span><br> -->
+                                <abbr title="HTML"><i class="fa-brands fa-html5"></i></abbr> 
+                                <abbr title="CSS"><i class="fa-brands fa-css3-alt"></i></abbr> 
+                                <abbr title="JavaScript"><i class="fa-brands fa-js"></i></abbr>
+                                <abbr title="Git"><i class="fa-brands fa-git-alt"></i></abbr>
+                                <abbr title="React"><i class="fa-brands fa-react"></i></abbr>
+                            </li>  
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2026</span><br>Bacharel em Sistema de Informação</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- ---------------portfolio--------------- -->
+
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Meus Projetos</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Imagens/Work-01.png">
+                    <div class="layer">
+                        <h3>Curiosidades de tecnologia</h3>
+                        <p>Site onde você pode ficar por dentro do mundo Tec e de tudo que envolve tecnologia. <br>
+                        <br>Linguagens usadas: <strong>HTML e CSS</strong></p>
+                        <a href="file:///C:/Users/HP/Documents/Studies/HTML-CSS/Desafios%20do%20Curso/Desafio%2010/Desafio%2010%20a/Index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #0e9e0e;"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Imagens/Work-02.png">
+                    <div class="layer">
+                        <h3>Tela Login Responsiva</h3>
+                        <p>Tela de Login totalmente responsiva. <br>
+                        <br>Linguagens usadas: <strong>HTML,CSS e JavaScript</strong></p>
+                        <a href="file:///C:/Users/HP/Documents/Studies/Projeto-Login/index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #0e9e0e;"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Imagens/Work-03.png">
+                    <div class="layer">
+                        <h3>Cordel Moderno</h3>
+                        <p>Cordel Moderno feito por Milton duarte, onde é ressaltado o efeito parallax.</p>
+                        <br>Linguagens usadas: <strong>HTML e CSS</strong>
+                        <a href="file:///C:/Users/HP/Documents/Studies/HTML-CSS/Desafios%20do%20Curso/Desafio%2012/index.html" target="_blank"><i class="fa-solid fa-up-right-from-square" style="color: #0e9e0e;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- ------------------Contato------------------- -->
+
+<section id="contract">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Me Contate</h1>
+                <p> <i class="fa-solid fa-paper-plane" style="color: var(--title-color);"></i>arthur.araujo.yas@gmail.com</p>
+                <p> <i class="fa-solid fa-phone" style="color: var(--title-color);"></i>(61) 99553-7078</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/arthur-batista-056a55266/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Batista204"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/arthurbatis_/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Imagens/Arthur de Araujo Batista.docx" download class="btn btn2">Download CV</a>
+            </div> 
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Seu nome" required>
+                    <input type="email" name="email" placeholder="Seu email" required>
+                    <textarea name="massage" rows="6" placeholder="Sua mensagem"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div> 
+        </div>
+    </div>
+</section>
+
+<!-- -------------------Footer------------------- -->
+
+<footer id="footer">
+    <div class="footer-text">
+        <p>Site desenvolvido por Arthur Batista</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+</footer>
+
+
+<script src="Scripts/script.js"></script>
+</body>
+</html>
